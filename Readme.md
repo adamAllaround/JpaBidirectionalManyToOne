@@ -1,4 +1,4 @@
-#Bi-directional many to one JPA entity mapping with Hibernate
+# Bi-directional many to one JPA entity mapping with Hibernate
 
 This repository presents how to set up many to one entity mapping with JPA annotations. 
 Entity relation between CreditCard and Account classes is the basis of code example.
@@ -7,7 +7,7 @@ Entity relation between CreditCard and Account classes is the basis of code exam
 
 Code example uses log4j2 library to show what SQL statements are being executed. Feel free to clone the repo and launch the test class to understand how Hibernate handles many to one mapping select and insert queries.
 
-##Running the project
+## Running the project
 * Clone the repository to your environment
 * run ```mvn clean install -DskipTests``` This should download the h2 database dependency into your maven directory
 * go to your home directory. On linux this will be ```cd /home/[youor username]```
